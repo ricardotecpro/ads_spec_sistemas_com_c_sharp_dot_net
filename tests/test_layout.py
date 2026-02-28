@@ -37,7 +37,7 @@ def test_homepage_structure(page: Page, base_url):
     # Material uses .md-typeset .grid.cards
     # The cards might be inside a div with class "grid cards"
     # We can check for the existence of the text "Lógica Sólida" which is in the first card
-    expect(page.get_by_text("Lógica Sólida")).to_be_visible()
+    expect(page.get_by_text("Trilha de Aprendizagem")).to_be_visible()
 
 # Test 3: Navigation to Lesson 01
 def test_lesson_01_page(page: Page, base_url):
