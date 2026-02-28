@@ -31,7 +31,7 @@ def test_homepage_structure(page: Page, base_url):
     
     # Check main heading
     heading = page.locator("h1")
-    expect(heading).to_contain_text("Curso de Algoritmos")
+    expect(heading).to_contain_text("Spec Sistemas com C Sharp Dot Net")
     
     # Check navigation cards exist
     # Material uses .md-typeset .grid.cards
